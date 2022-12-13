@@ -1,0 +1,6 @@
+# https://git-scm.com/docs/gitignore
+# https://github.com/github/gitignore
+
+node_modules/
+build/Release/obj
+

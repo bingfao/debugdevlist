@@ -1,0 +1,27 @@
+{
+  "name": "debugdevlist",
+  "version": "0.0.12",
+  "description": "list mips jtag usb debug dev",
+  "main": "index.js",
+  "gypfile": true,
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "bindings": "~1.2.1",
+    "node-gyp-build": "^4.5.0"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build"
+  },
+  "author": "CipUnited.",
+  "license": "MIT",
+  "binary": {
+    "module_name": "debugdevlist",
+    "module_path": "./build/release/",
+    "host": "https://github.com/bingfao/debugdevlist/releases/download/",
+    "remote_path": "{version}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingfao/debugdevlist.git"
+  }
+}
