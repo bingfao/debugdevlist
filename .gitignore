@@ -2,5 +2,5 @@
 # https://github.com/github/gitignore
 
 node_modules/
-build/Release/obj
-
+build/Release/obj/
+*.obj
